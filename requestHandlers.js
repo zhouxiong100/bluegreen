@@ -11,7 +11,7 @@ function start(response) {
         '<meta http-equiv="Content-Type" '+
         'content="text/html; charset=UTF-8" />'+
         '</head>'+
-        '<body>'+
+        '<body> version 1'+
         '<canvas id="myCanvas" width="578" height="200"></canvas>'+
         '<script>'+
         'var canvas = document.getElementById("myCanvas");'+
