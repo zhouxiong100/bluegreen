@@ -11,7 +11,7 @@ function start(response) {
         '<meta http-equiv="Content-Type" '+
         'content="text/html; charset=UTF-8" />'+
         '</head>'+
-        '<body> version 1'+
+        '<body> this version 2'+
         '<canvas id="myCanvas" width="578" height="200"></canvas>'+
         '<script>'+
         'var canvas = document.getElementById("myCanvas");'+
@@ -27,7 +27,7 @@ function start(response) {
         'context.strokeStyle = "#003300";'+
         'context.stroke();'+
         '</script>'+
-        '</body>this is version 2'+
+        '</body>'+
         '</html>';
 
     response.writeHead(200, {"Content-Type": "text/html"});
