@@ -27,7 +27,7 @@ function start(response) {
         'context.strokeStyle = "#003300";'+
         'context.stroke();'+
         '</script>'+
-        '</body>this is version 1'+
+        '</body>this is version 2'+
         '</html>';
 
     response.writeHead(200, {"Content-Type": "text/html"});
